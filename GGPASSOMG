@@ -1,0 +1,655 @@
+---made by LoneWalker
+
+local StarterGui = game:GetService("StarterGui")
+StarterGui:SetCore("SendNotification", {
+	Title = 'LoneWalkers Gui',
+	Text = 'Most Powerful NA Gui Ever Made',
+	Duration = 10.0,
+}
+)
+wait()
+local StarterGui = game:GetService("StarterGui")
+StarterGui:SetCore("SendNotification", {
+	Title = 'side note',
+	Text = 'QT_xAlip is my assistance',
+	Duration = 14.0,
+}
+)
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local exitbtn = Instance.new("TextButton")
+local nextpage = Instance.new("TextButton")
+local label = Instance.new("TextLabel")
+local label2 = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local BoneScythe = Instance.new("TextButton")
+local ScytheofSingularity = Instance.new("TextButton")
+local Chakra = Instance.new("TextButton")
+local BatWingScythe = Instance.new("TextButton")
+local GrimAxe = Instance.new("TextButton")
+local VipPackCloth = Instance.new("TextButton")
+local OpenGui = Instance.new("TextButton")
+local main2 = Instance.new("Frame")
+local previouspage = Instance.new("TextButton")
+local label1 = Instance.new("TextLabel")
+local UnicornSword = Instance.new("TextButton")
+local RainbowPackCloth = Instance.new("TextButton")
+local MetallicThrowingKnives = Instance.new("TextButton")
+local label2_2 = Instance.new("TextLabel")
+local PizzaSword = Instance.new("TextButton")
+local PizzaPackCloth = Instance.new("TextButton")
+local PizzaKunai = Instance.new("TextButton")
+local label3 = Instance.new("TextLabel")
+local BoomerangDagger = Instance.new("TextButton")
+local DarkageKunai = Instance.new("TextButton")
+local GhostDagger = Instance.new("TextButton")
+local GrabBag = Instance.new("TextButton")
+local OctopusCannon = Instance.new("TextButton")
+local StarfishShuriken = Instance.new("TextButton")
+local ThrowingDonuts = Instance.new("TextButton")
+local WarRock = Instance.new("TextButton")
+local StopSignAxe = Instance.new("TextButton")
+local DualPlunger = Instance.new("TextButton")
+local GuitarSword = Instance.new("TextButton")
+local SpringtimeCutlass = Instance.new("TextButton")
+local FlowerStar3 = Instance.new("TextButton")
+local FlowerStar1 = Instance.new("TextButton")
+local label4 = Instance.new("TextLabel")
+local FryingPan = Instance.new("TextButton")
+local SummerSword = Instance.new("TextButton")
+local BigBugNet = Instance.new("TextButton")
+local Mackerel = Instance.new("TextButton")
+local BoardWithANailInIt = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(120, 127, 255)
+main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+main.Position = UDim2.new(0.472450167, 0, 0.252261579, 0)
+main.Size = UDim2.new(0, 443, 0, 249)
+main.Visible = false
+main.Active = true
+main.Draggable = true
+
+exitbtn.Name = "exit btn"
+exitbtn.Parent = main
+exitbtn.BackgroundColor3 = Color3.fromRGB(109, 73, 255)
+exitbtn.BorderSizePixel = 2
+exitbtn.Position = UDim2.new(0.945823908, 0, 0, 0)
+exitbtn.Size = UDim2.new(0, 24, 0, 26)
+exitbtn.ZIndex = 2
+exitbtn.Modal = true
+exitbtn.Font = Enum.Font.SourceSans
+exitbtn.Text = "X"
+exitbtn.TextColor3 = Color3.fromRGB(0, 0, 0)
+exitbtn.TextSize = 14.000
+
+nextpage.Name = "next page"
+nextpage.Parent = main
+nextpage.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
+nextpage.BorderSizePixel = 2
+nextpage.Position = UDim2.new(0.945823908, 0, 0.240963861, 0)
+nextpage.Size = UDim2.new(0, 23, 0, 23)
+nextpage.ZIndex = 2
+nextpage.Font = Enum.Font.Roboto
+nextpage.Text = ">"
+nextpage.TextColor3 = Color3.fromRGB(0, 0, 0)
+nextpage.TextSize = 14.000
+
+label.Name = "label"
+label.Parent = main
+label.BackgroundColor3 = Color3.fromRGB(110, 205, 255)
+label.BackgroundTransparency = 1.000
+label.BorderColor3 = Color3.fromRGB(120, 127, 255)
+label.Position = UDim2.new(0.160169289, 0, -0.000192770734, 0)
+label.Size = UDim2.new(0, 301, 0, 26)
+label.ZIndex = 2
+label.Font = Enum.Font.SourceSansItalic
+label.Text = "GamePasses"
+label.TextColor3 = Color3.fromRGB(0, 0, 0)
+label.TextSize = 18.000
+
+label2.Name = "label2"
+label2.Parent = main
+label2.BackgroundColor3 = Color3.fromRGB(110, 205, 255)
+label2.BackgroundTransparency = 1.000
+label2.BorderColor3 = Color3.fromRGB(120, 127, 255)
+label2.Position = UDim2.new(0.273137689, 0, 0.076305218, 0)
+label2.Size = UDim2.new(0, 200, 0, 26)
+label2.ZIndex = 2
+label2.Font = Enum.Font.SourceSansItalic
+label2.Text = "Page 1"
+label2.TextColor3 = Color3.fromRGB(0, 0, 0)
+label2.TextSize = 16.000
+
+ImageLabel.Parent = main
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Size = UDim2.new(0, 443, 0, 249)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=10135182269"
+
+BoneScythe.Name = "BoneScythe"
+BoneScythe.Parent = main
+BoneScythe.BackgroundColor3 = Color3.fromRGB(114, 135, 255)
+BoneScythe.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BoneScythe.Position = UDim2.new(0.0158013552, 0, 0.767068267, 0)
+BoneScythe.Size = UDim2.new(0, 63, 0, 29)
+BoneScythe.Font = Enum.Font.SourceSansLight
+BoneScythe.Text = "Scythe1"
+BoneScythe.TextColor3 = Color3.fromRGB(0, 0, 0)
+BoneScythe.TextSize = 14.000
+BoneScythe.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.RemoteEvent.GiveItemEvent:FireServer("VipPass", "BoneScythe")
+end)
+
+ScytheofSingularity.Name = "ScytheofSingularity"
+ScytheofSingularity.Parent = main
+ScytheofSingularity.BackgroundColor3 = Color3.fromRGB(114, 135, 255)
+ScytheofSingularity.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScytheofSingularity.Position = UDim2.new(0.158013538, 0, 0.767068267, 0)
+ScytheofSingularity.Size = UDim2.new(0, 63, 0, 29)
+ScytheofSingularity.Font = Enum.Font.SourceSansLight
+ScytheofSingularity.Text = "Scythe2"
+ScytheofSingularity.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScytheofSingularity.TextSize = 14.000
+ScytheofSingularity.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.RemoteEvent.GiveItemEvent:FireServer("VipPass", "ScytheOfSingularity")
+end)
+
+Chakra.Name = "Chakra"
+Chakra.Parent = main
+Chakra.BackgroundColor3 = Color3.fromRGB(114, 135, 255)
+Chakra.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Chakra.Position = UDim2.new(0.347629815, 0, 0.843373418, 0)
+Chakra.Size = UDim2.new(0, 63, 0, 29)
+Chakra.Font = Enum.Font.SourceSansLight
+Chakra.Text = "Chakra"
+Chakra.TextColor3 = Color3.fromRGB(0, 0, 0)
+Chakra.TextSize = 14.000
+Chakra.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.RemoteEvent.GiveItemEvent:FireServer("VipPass", "Chakra")
+end)
+
+BatWingScythe.Name = "BatWingScythe"
+BatWingScythe.Parent = main
+BatWingScythe.BackgroundColor3 = Color3.fromRGB(114, 135, 255)
+BatWingScythe.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BatWingScythe.Position = UDim2.new(0.674943566, 0, 0.767068267, 0)
+BatWingScythe.Size = UDim2.new(0, 63, 0, 29)
+BatWingScythe.Font = Enum.Font.SourceSansLight
+BatWingScythe.Text = "Scythe3"
+BatWingScythe.TextColor3 = Color3.fromRGB(0, 0, 0)
+BatWingScythe.TextSize = 14.000
+BatWingScythe.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.RemoteEvent.GiveItemEvent:FireServer("VipPass", "BatWingScythe")
+end)
+	
+GrimAxe.Name = "GrimAxe"
+GrimAxe.Parent = main
+GrimAxe.BackgroundColor3 = Color3.fromRGB(114, 135, 255)
+GrimAxe.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GrimAxe.Position = UDim2.new(0.817155719, 0, 0.767068267, 0)
+GrimAxe.Size = UDim2.new(0, 63, 0, 29)
+GrimAxe.Font = Enum.Font.SourceSansLight
+GrimAxe.Text = "Scythe4"
+GrimAxe.TextColor3 = Color3.fromRGB(0, 0, 0)
+GrimAxe.TextSize = 14.000
+GrimAxe.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.RemoteEvent.GiveItemEvent:FireServer("VipPass", "GrimAxe")
+end)
+			
+VipPackCloth.Name = "VipPackCloth"
+VipPackCloth.Parent = main
+VipPackCloth.BackgroundColor3 = Color3.fromRGB(114, 135, 255)
+VipPackCloth.Position = UDim2.new(0.489841998, 0, 0.843373477, 0)
+VipPackCloth.Size = UDim2.new(0, 63, 0, 29)
+VipPackCloth.Font = Enum.Font.SourceSans
+VipPackCloth.Text = "VipCloth"
+VipPackCloth.TextColor3 = Color3.fromRGB(0, 0, 0)
+VipPackCloth.TextSize = 14.000
+VipPackCloth.MouseButton1Down:connect(function()	
+	game.ReplicatedStorage.RemoteEvent.GiveItemEvent:FireServer("VipPass", "VipPackCloth")
+end)
+				
+OpenGui.Name = "Open Gui"
+OpenGui.Parent = ScreenGui
+OpenGui.BackgroundColor3 = Color3.fromRGB(131, 120, 255)
+OpenGui.Position = UDim2.new(0.880421996, 0, 0.813380301, 0)
+OpenGui.Size = UDim2.new(0, 83, 0, 23)
+OpenGui.Font = Enum.Font.Roboto
+OpenGui.Text = "Open Gui"
+OpenGui.TextColor3 = Color3.fromRGB(0, 0, 0)
+OpenGui.TextSize = 14.000
+
+main2.Name = "main2"
+main2.Parent = ScreenGui
+main2.BackgroundColor3 = Color3.fromRGB(125, 121, 255)
+main2.Position = UDim2.new(0.470105499, 0, 0.141346082, 0)
+main2.Size = UDim2.new(0, 443, 0, 381)
+main2.Visible = false
+main2.Active = true
+main2.Draggable = true
+
+previouspage.Name = "previous page"
+previouspage.Parent = main2
+previouspage.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
+previouspage.BorderSizePixel = 2
+previouspage.Position = UDim2.new(0.512415349, 0, 0.933719158, 0)
+previouspage.Size = UDim2.new(0, 23, 0, 25)
+previouspage.Font = Enum.Font.Roboto
+previouspage.Text = "<"
+previouspage.TextColor3 = Color3.fromRGB(0, 0, 0)
+previouspage.TextSize = 14.000
+
+label1.Name = "label1"
+label1.Parent = main2
+label1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+label1.BackgroundTransparency = 1.000
+label1.Size = UDim2.new(0, 443, 0, 31)
+label1.Font = Enum.Font.RobotoMono
+label1.Text = "Rainbow Pack"
+label1.TextColor3 = Color3.fromRGB(0, 0, 0)
+label1.TextSize = 14.000
+
+UnicornSword.Name = "UnicornSword"
+UnicornSword.Parent = main2
+UnicornSword.BackgroundColor3 = Color3.fromRGB(114, 135, 255)
+UnicornSword.Position = UDim2.new(0, 0, 0.0806997865, 0)
+UnicornSword.Size = UDim2.new(0, 107, 0, 30)
+UnicornSword.Font = Enum.Font.SourceSans
+UnicornSword.Text = "UnicornSword"
+UnicornSword.TextColor3 = Color3.fromRGB(0, 0, 0)
+UnicornSword.TextSize = 14.000
+UnicornSword.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.RemoteEvent.GiveItemEvent:FireServer("RainbowPass", "UnicornSword")
+end)
+					
+RainbowPackCloth.Name = "RainbowPackCloth"
+RainbowPackCloth.Parent = main2
+RainbowPackCloth.BackgroundColor3 = Color3.fromRGB(114, 135, 255)
+RainbowPackCloth.Position = UDim2.new(0.379232496, 0, 0.0806997865, 0)
+RainbowPackCloth.Size = UDim2.new(0, 107, 0, 30)
+RainbowPackCloth.Font = Enum.Font.SourceSans
+RainbowPackCloth.Text = "RainbowCloth"
+RainbowPackCloth.TextColor3 = Color3.fromRGB(0, 0, 0)
+RainbowPackCloth.TextSize = 14.000
+RainbowPackCloth.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.RemoteEvent.GiveItemEvent:FireServer("RainbowPass", "RainbowPackCloth")
+end)
+
+MetallicThrowingKnives.Name = "MetallicThrowingKnives"
+MetallicThrowingKnives.Parent = main2
+MetallicThrowingKnives.BackgroundColor3 = Color3.fromRGB(114, 135, 255)
+MetallicThrowingKnives.Position = UDim2.new(0.758465052, 0, 0.0806997865, 0)
+MetallicThrowingKnives.Size = UDim2.new(0, 107, 0, 30)
+MetallicThrowingKnives.Font = Enum.Font.SourceSans
+MetallicThrowingKnives.Text = "RainbowShuriken"
+MetallicThrowingKnives.TextColor3 = Color3.fromRGB(0, 0, 0)
+MetallicThrowingKnives.TextSize = 14.000
+MetallicThrowingKnives.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.RemoteEvent.GiveItemEvent:FireServer("RainbowPass", "MetallicThrowingKnives")
+end)
+							
+label2_2.Name = "label2"
+label2_2.Parent = main2
+label2_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+label2_2.BackgroundTransparency = 1.000
+label2_2.Position = UDim2.new(0, 0, 0.157383502, 0)
+label2_2.Size = UDim2.new(0, 443, 0, 28)
+label2_2.Font = Enum.Font.SourceSans
+label2_2.Text = "Pizza Pack"
+label2_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+label2_2.TextSize = 14.000
+
+PizzaSword.Name = "PizzaSword"
+PizzaSword.Parent = main2
+PizzaSword.BackgroundColor3 = Color3.fromRGB(114, 135, 255)
+PizzaSword.Position = UDim2.new(0, 0, 0.229999587, 0)
+PizzaSword.Size = UDim2.new(0, 107, 0, 30)
+PizzaSword.Font = Enum.Font.SourceSans
+PizzaSword.Text = "PizzaSword"
+PizzaSword.TextColor3 = Color3.fromRGB(0, 0, 0)
+PizzaSword.TextSize = 14.000
+PizzaSword.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.RemoteEvent.GiveItemEvent:FireServer("PizzaPass", "PizzaSword")
+end)
+								
+PizzaPackCloth.Name = "PizzaPackCloth"
+PizzaPackCloth.Parent = main2
+PizzaPackCloth.BackgroundColor3 = Color3.fromRGB(114, 135, 255)
+PizzaPackCloth.Position = UDim2.new(0.379232496, 0, 0.229456976, 0)
+PizzaPackCloth.Size = UDim2.new(0, 107, 0, 30)
+PizzaPackCloth.Font = Enum.Font.SourceSans
+PizzaPackCloth.Text = "PizzaCloth"
+PizzaPackCloth.TextColor3 = Color3.fromRGB(0, 0, 0)
+PizzaPackCloth.TextSize = 14.000
+PizzaPackCloth.MouseButton1Down:connect(function()	
+	game.ReplicatedStorage.RemoteEvent.GiveItemEvent:FireServer("PizzaPass", "PizzaPackCloth")
+end)
+									
+PizzaKunai.Name = "PizzaKunai"
+PizzaKunai.Parent = main2
+PizzaKunai.BackgroundColor3 = Color3.fromRGB(114, 135, 255)
+PizzaKunai.Position = UDim2.new(0.758464992, 0, 0.228914365, 0)
+PizzaKunai.Size = UDim2.new(0, 107, 0, 30)
+PizzaKunai.Font = Enum.Font.SourceSans
+PizzaKunai.Text = "PizzaKunai"
+PizzaKunai.TextColor3 = Color3.fromRGB(0, 0, 0)
+PizzaKunai.TextSize = 14.000
+PizzaKunai.MouseButton1Down:connect(function()		
+	game.ReplicatedStorage.RemoteEvent.GiveItemEvent:FireServer("PizzaPass", "PizzaKunai")
+end)								
+										
+label3.Name = "label3"
+label3.Parent = main2
+label3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+label3.BackgroundTransparency = 1.000
+label3.Position = UDim2.new(0, 0, 0.308122933, 0)
+label3.Size = UDim2.new(0, 443, 0, 26)
+label3.Font = Enum.Font.SourceSans
+label3.Text = "Trippy Throwable Pack"
+label3.TextColor3 = Color3.fromRGB(0, 0, 0)
+label3.TextSize = 14.000
+
+BoomerangDagger.Name = "BoomerangDagger"
+BoomerangDagger.Parent = main2
+BoomerangDagger.BackgroundColor3 = Color3.fromRGB(114, 135, 255)
+BoomerangDagger.Position = UDim2.new(0, 0, 0.375874132, 0)
+BoomerangDagger.Size = UDim2.new(0, 107, 0, 30)
+BoomerangDagger.Font = Enum.Font.SourceSans
+BoomerangDagger.Text = "Boomerang"
+BoomerangDagger.TextColor3 = Color3.fromRGB(0, 0, 0)
+BoomerangDagger.TextSize = 14.000
+BoomerangDagger.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.RemoteEvent.GiveItemEvent:FireServer("FunnyThrowPass", "BoomerangDagger")
+end)
+
+DarkageKunai.Name = "DarkageKunai"
+DarkageKunai.Parent = main2
+DarkageKunai.BackgroundColor3 = Color3.fromRGB(114, 135, 255)
+DarkageKunai.Position = UDim2.new(0.241534993, 0, 0.375874132, 0)
+DarkageKunai.Size = UDim2.new(0, 113, 0, 30)
+DarkageKunai.Font = Enum.Font.SourceSans
+DarkageKunai.Text = "DarkageKunai"
+DarkageKunai.TextColor3 = Color3.fromRGB(0, 0, 0)
+DarkageKunai.TextSize = 14.000
+DarkageKunai.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.RemoteEvent.GiveItemEvent:FireServer("FunnyThrowPass", "DarkageKunai")
+end)
+
+GhostDagger.Name = "GhostDagger"
+GhostDagger.Parent = main2
+GhostDagger.BackgroundColor3 = Color3.fromRGB(114, 135, 255)
+GhostDagger.Position = UDim2.new(0.496614009, 0, 0.375874132, 0)
+GhostDagger.Size = UDim2.new(0, 110, 0, 30)
+GhostDagger.Font = Enum.Font.SourceSans
+GhostDagger.Text = "GhostDagger"
+GhostDagger.TextColor3 = Color3.fromRGB(0, 0, 0)
+GhostDagger.TextSize = 14.000
+GhostDagger.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.RemoteEvent.GiveItemEvent:FireServer("FunnyThrowPass", "GhostDagger")
+end)
+
+GrabBag.Name = "GrabBag"
+GrabBag.Parent = main2
+GrabBag.BackgroundColor3 = Color3.fromRGB(114, 135, 255)
+GrabBag.Position = UDim2.new(0.744920969, 0, 0.375874132, 0)
+GrabBag.Size = UDim2.new(0, 113, 0, 30)
+GrabBag.Font = Enum.Font.SourceSans
+GrabBag.Text = "GrabBag"
+GrabBag.TextColor3 = Color3.fromRGB(0, 0, 0)
+GrabBag.TextSize = 14.000
+GrabBag.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.RemoteEvent.GiveItemEvent:FireServer("FunnyThrowPass", "GrabBag")
+end)
+
+OctopusCannon.Name = "OctopusCannon"
+OctopusCannon.Parent = main2
+OctopusCannon.BackgroundColor3 = Color3.fromRGB(114, 135, 255)
+OctopusCannon.Position = UDim2.new(0, 0, 0.458704144, 0)
+OctopusCannon.Size = UDim2.new(0, 107, 0, 30)
+OctopusCannon.Font = Enum.Font.SourceSans
+OctopusCannon.Text = "StickyOctopus"
+OctopusCannon.TextColor3 = Color3.fromRGB(0, 0, 0)
+OctopusCannon.TextSize = 14.000
+OctopusCannon.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.RemoteEvent.GiveItemEvent:FireServer("FunnyThrowPass", "OctopusCannon")
+end)
+
+StarfishShuriken.Name = "StarfishShuriken"
+StarfishShuriken.Parent = main2
+StarfishShuriken.BackgroundColor3 = Color3.fromRGB(114, 135, 255)
+StarfishShuriken.Position = UDim2.new(0.241534993, 0, 0.458704263, 0)
+StarfishShuriken.Size = UDim2.new(0, 113, 0, 30)
+StarfishShuriken.Font = Enum.Font.SourceSans
+StarfishShuriken.Text = "Starfish"
+StarfishShuriken.TextColor3 = Color3.fromRGB(0, 0, 0)
+StarfishShuriken.TextSize = 14.000
+StarfishShuriken.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.RemoteEvent.GiveItemEvent:FireServer("FunnyThrowPass", "StarfishShuriken")
+end)
+
+ThrowingDonuts.Name = "ThrowingDonuts"
+ThrowingDonuts.Parent = main2
+ThrowingDonuts.BackgroundColor3 = Color3.fromRGB(114, 135, 255)
+ThrowingDonuts.Position = UDim2.new(0.496614009, 0, 0.458704084, 0)
+ThrowingDonuts.Size = UDim2.new(0, 110, 0, 30)
+ThrowingDonuts.Font = Enum.Font.SourceSans
+ThrowingDonuts.Text = "Donuts"
+ThrowingDonuts.TextColor3 = Color3.fromRGB(0, 0, 0)
+ThrowingDonuts.TextSize = 14.000
+ThrowingDonuts.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.RemoteEvent.GiveItemEvent:FireServer("FunnyThrowPass", "ThrowingDonuts")
+end)
+
+WarRock.Name = "WarRock"
+WarRock.Parent = main2
+WarRock.BackgroundColor3 = Color3.fromRGB(114, 135, 255)
+WarRock.Position = UDim2.new(0.744920969, 0, 0.458704263, 0)
+WarRock.Size = UDim2.new(0, 113, 0, 30)
+WarRock.Font = Enum.Font.SourceSans
+WarRock.Text = "WarRock"
+WarRock.TextColor3 = Color3.fromRGB(0, 0, 0)
+WarRock.TextSize = 14.000
+WarRock.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.RemoteEvent.GiveItemEvent:FireServer("FunnyThrowPass", "WarRock")
+end)
+
+StopSignAxe.Name = "StopSignAxe"
+StopSignAxe.Parent = main2
+StopSignAxe.BackgroundColor3 = Color3.fromRGB(114, 135, 255)
+StopSignAxe.Position = UDim2.new(0, 0, 0.683109164, 0)
+StopSignAxe.Size = UDim2.new(0, 110, 0, 30)
+StopSignAxe.Font = Enum.Font.SourceSans
+StopSignAxe.Text = "Axe Sword"
+StopSignAxe.TextColor3 = Color3.fromRGB(0, 0, 0)
+StopSignAxe.TextSize = 14.000
+StopSignAxe.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.RemoteEvent.GiveItemEvent:FireServer("FunnySwordPass", "StopSignAxe")
+end)
+
+DualPlunger.Name = "DualPlungers"
+DualPlunger.Parent = main2
+DualPlunger.BackgroundColor3 = Color3.fromRGB(114, 135, 255)
+DualPlunger.Position = UDim2.new(0.248307005, 0, 0.683109164, 0)
+DualPlunger.Size = UDim2.new(0, 113, 0, 30)
+DualPlunger.Font = Enum.Font.SourceSans
+DualPlunger.Text = "Toilet Plunger"
+DualPlunger.TextColor3 = Color3.fromRGB(0, 0, 0)
+DualPlunger.TextSize = 14.000
+DualPlunger.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.RemoteEvent.GiveItemEvent:FireServer("FunnySwordPass", "DualPlungers")
+end)
+
+GuitarSword.Name = "GuitarSword"
+GuitarSword.Parent = main2
+GuitarSword.BackgroundColor3 = Color3.fromRGB(114, 135, 255)
+GuitarSword.Position = UDim2.new(0.503386021, 0, 0.683109164, 0)
+GuitarSword.Size = UDim2.new(0, 110, 0, 30)
+GuitarSword.Font = Enum.Font.SourceSans
+GuitarSword.Text = "Guitar Sword"
+GuitarSword.TextColor3 = Color3.fromRGB(0, 0, 0)
+GuitarSword.TextSize = 14.000
+GuitarSword.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.RemoteEvent.GiveItemEvent:FireServer("FunnySwordPass", "GuitarSword")
+end)
+										
+SpringtimeCutlass.Name = "SpringtimeCutlass"
+SpringtimeCutlass.Parent = main2
+SpringtimeCutlass.BackgroundColor3 = Color3.fromRGB(114, 135, 255)
+SpringtimeCutlass.Position = UDim2.new(0.751692951, 0, 0.683109164, 0)
+SpringtimeCutlass.Size = UDim2.new(0, 110, 0, 30)
+SpringtimeCutlass.Font = Enum.Font.SourceSans
+SpringtimeCutlass.Text = "Flower Cutlass"
+SpringtimeCutlass.TextColor3 = Color3.fromRGB(0, 0, 0)
+SpringtimeCutlass.TextSize = 14.000
+SpringtimeCutlass.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.RemoteEvent.GiveItemEvent:FireServer("FunnySwordPass", "SpringtimeCutlass")
+end)
+											
+FlowerStar3.Name = "FlowerStar3"
+FlowerStar3.Parent = main2
+FlowerStar3.BackgroundColor3 = Color3.fromRGB(114, 135, 255)
+FlowerStar3.Position = UDim2.new(0.496614009, 0, 0.534980774, 0)
+FlowerStar3.Size = UDim2.new(0, 110, 0, 30)
+FlowerStar3.Font = Enum.Font.SourceSans
+FlowerStar3.Text = "Flower3"
+FlowerStar3.TextColor3 = Color3.fromRGB(0, 0, 0)
+FlowerStar3.TextSize = 14.000
+FlowerStar3.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.RemoteEvent.GiveItemEvent:FireServer("FunnyThrowPass", "FlowerStar3")
+end)
+												
+FlowerStar1.Name = "FlowerStar1"
+FlowerStar1.Parent = main2
+FlowerStar1.BackgroundColor3 = Color3.fromRGB(114, 135, 255)
+FlowerStar1.Position = UDim2.new(0.241534993, 0, 0.533502817, 0)
+FlowerStar1.Size = UDim2.new(0, 113, 0, 30)
+FlowerStar1.Font = Enum.Font.SourceSans
+FlowerStar1.Text = "Flower1"
+FlowerStar1.TextColor3 = Color3.fromRGB(0, 0, 0)
+FlowerStar1.TextSize = 14.000
+FlowerStar1.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.RemoteEvent.GiveItemEvent:FireServer("FunnyThrowPass", "FlowerStar1")
+end)
+													
+label4.Name = "label4"
+label4.Parent = main2
+label4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+label4.BackgroundTransparency = 1.000
+label4.Position = UDim2.new(0, 0, 0.614173234, 0)
+label4.Size = UDim2.new(0, 443, 0, 27)
+label4.Font = Enum.Font.SourceSans
+label4.Text = "SillySwordPack"
+label4.TextColor3 = Color3.fromRGB(0, 0, 0)
+label4.TextSize = 14.000
+
+FryingPan.Name = "Frying Pan"
+FryingPan.Parent = main2
+FryingPan.BackgroundColor3 = Color3.fromRGB(114, 135, 255)
+FryingPan.Position = UDim2.new(0, 0, 0.761849284, 0)
+FryingPan.Size = UDim2.new(0, 110, 0, 30)
+FryingPan.Font = Enum.Font.SourceSans
+FryingPan.Text = "Frying Pan"
+FryingPan.TextColor3 = Color3.fromRGB(0, 0, 0)
+FryingPan.TextSize = 14.000
+FryingPan.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.RemoteEvent.GiveItemEvent:FireServer("FunnySwordPass", "Frying Pan")
+end)
+														
+SummerSword.Name = "SummerSword"
+SummerSword.Parent = main2
+SummerSword.BackgroundColor3 = Color3.fromRGB(114, 135, 255)
+SummerSword.Position = UDim2.new(0.248307005, 0, 0.761849284, 0)
+SummerSword.Size = UDim2.new(0, 113, 0, 30)
+SummerSword.Font = Enum.Font.SourceSans
+SummerSword.Text = "Banana Leaf Sword"
+SummerSword.TextColor3 = Color3.fromRGB(0, 0, 0)
+SummerSword.TextSize = 14.000
+SummerSword.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.RemoteEvent.GiveItemEvent:FireServer("FunnySwordPass", "SummerSword")
+end)
+															
+BigBugNet.Name = "BigBugNet"
+BigBugNet.Parent = main2
+BigBugNet.BackgroundColor3 = Color3.fromRGB(114, 135, 255)
+BigBugNet.Position = UDim2.new(0.503386021, 0, 0.761849284, 0)
+BigBugNet.Size = UDim2.new(0, 110, 0, 30)
+BigBugNet.Font = Enum.Font.SourceSans
+BigBugNet.Text = "Fishing Net"
+BigBugNet.TextColor3 = Color3.fromRGB(0, 0, 0)
+BigBugNet.TextSize = 14.000
+BigBugNet.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.RemoteEvent.GiveItemEvent:FireServer("FunnySwordPass", "BigBugNet")
+end)
+																
+Mackerel.Name = "Mackerel"
+Mackerel.Parent = main2
+Mackerel.BackgroundColor3 = Color3.fromRGB(114, 135, 255)
+Mackerel.Position = UDim2.new(0.75169301, 0, 0.761849344, 0)
+Mackerel.Size = UDim2.new(0, 110, 0, 30)
+Mackerel.Font = Enum.Font.SourceSans
+Mackerel.Text = "Mackerel"
+Mackerel.TextColor3 = Color3.fromRGB(0, 0, 0)
+Mackerel.TextSize = 14.000
+Mackerel.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.RemoteEvent.GiveItemEvent:FireServer("FunnySwordPass", "Mackerel")
+end)
+																	
+BoardWithANailInIt.Name = "BoardWithANailInIt"
+BoardWithANailInIt.Parent = main2
+BoardWithANailInIt.BackgroundColor3 = Color3.fromRGB(114, 135, 255)
+BoardWithANailInIt.Position = UDim2.new(0.751692951, 0, 0.840589464, 0)
+BoardWithANailInIt.Size = UDim2.new(0, 110, 0, 30)
+BoardWithANailInIt.Font = Enum.Font.SourceSans
+BoardWithANailInIt.Text = "Nailed 3x4"
+BoardWithANailInIt.TextColor3 = Color3.fromRGB(0, 0, 0)
+BoardWithANailInIt.TextSize = 14.000
+BoardWithANailInIt.MouseButton1Down:connect(function()
+	game.ReplicatedStorage.RemoteEvent.GiveItemEvent:FireServer("FunnySwordPass", "BoardWithANailInIt")
+end)
+																		
+-- Scripts:
+
+local function VYBPLY_fake_script() -- exitbtn.LocalScript 
+	local script = Instance.new('LocalScript', exitbtn)
+
+	local Frame = script.Parent.Parent
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		Frame.Visible = false
+	end)
+end
+coroutine.wrap(VYBPLY_fake_script)()
+local function HEJJR_fake_script() -- nextpage.LocalScript 
+	local script = Instance.new('LocalScript', nextpage)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.main2.Visible = true
+	end)
+end
+coroutine.wrap(HEJJR_fake_script)()
+local function RMPAR_fake_script() -- OpenGui.LocalScript 
+	local script = Instance.new('LocalScript', OpenGui)
+
+	local Frame = script.Parent.Parent.main
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		Frame.Visible = true
+	end)
+end
+coroutine.wrap(RMPAR_fake_script)()
+local function ITFCC_fake_script() -- previouspage.LocalScript 
+	local script = Instance.new('LocalScript', previouspage)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false 
+		script.Parent.Parent.Parent.main.Visible = true
+	end)
+end
+coroutine.wrap(ITFCC_fake_script)()
